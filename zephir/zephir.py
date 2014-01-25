@@ -4,12 +4,9 @@ from __future__ import print_function
 import re
 import copy
 
-from pygments.lexer import RegexLexer, ExtendedRegexLexer, bygroups, using, \
-     include, this
-from pygments.token import Text, Comment, Operator, Keyword, Name, String, \
-     Number, Other, Punctuation, Literal
-from pygments.util import get_bool_opt, get_list_opt, looks_like_xml, \
-                          html_doctype_matches, unirange
+from pygments.lexer import RegexLexer, ExtendedRegexLexer, bygroups, using, include, this
+from pygments.token import Text, Comment, Operator, Keyword, Name, String, Number, Other, Punctuation, Literal
+from pygments.util import get_bool_opt, get_list_opt, looks_like_xml, html_doctype_matches
 from pygments.lexers.agile import RubyLexer
 from pygments.lexers.compiled import ScalaLexer
 
