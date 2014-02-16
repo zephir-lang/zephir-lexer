@@ -46,7 +46,7 @@ class ZephirLexer(RegexLexer):
             (r'[{(\[;,]', Punctuation, 'slashstartsregex'),
             (r'[})\].]', Punctuation),
             (r'(for|in|while|do|break|return|continue|switch|case|default|if|else|loop|require|inline|'
-             r'throw|try|catch|finally|new|delete|typeof|instanceof|void|namespace|use|extends|'
+             r'throw|try|catch|finally|new|delete|typeof|instanceof|void|namespace|use|as|extends|'
              r'this|fetch|isset|unset|echo|fetch|likely|unlikely|empty)\b', Keyword, 'slashstartsregex'),
             (r'(var|let|with|function)\b', Keyword.Declaration, 'slashstartsregex'),
             (r'(abstract|boolean|bool|char|class|const|double|enum|export|'
