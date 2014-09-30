@@ -6,7 +6,8 @@ Zephir Syntax Highlight for Pygments
 You can download and run this extension as below:
 
 ```bash
+$ sudo apt-get install python-setuptools
 $ git clone git://github.com/phalcon/zephir-lexer
 $ cd zephir-lexer
-$ python setup.py install
+$ sudo python setup.py install
 ```
