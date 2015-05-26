@@ -49,7 +49,7 @@ class ZephirLexer(RegexLexer):
              r'throw|try|catch|finally|new|delete|typeof|instanceof|void|namespace|use|extends|'
              r'this|fetch|isset|unset|echo|fetch|likely|unlikely|empty)\b', Keyword, 'slashstartsregex'),
             (r'(var|let|with|function)\b', Keyword.Declaration, 'slashstartsregex'),
-            (r'(abstract|boolean|bool|char|class|const|double|enum|export|'
+            (r'(abstract|boolean|bool|char|class|trait|const|double|enum|export|'
              r'extends|final|float|goto|implements|import|int|string|interface|long|ulong|char|uchar|native|unsigned|'
              r'private|protected|public|internal|short|static|self|throws|reverse|'
              r'transient|volatile)\b', Keyword.Reserved),
